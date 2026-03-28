@@ -25,3 +25,11 @@ resource "aws_s3_object" "readme_upload" {
   etag         = filemd5("${path.module}/README.md")
   content_type = "text/markdown"
 }
+
+resource "aws_s3_object" "newly_created_pipeline_upload" {
+  bucket       = aws_s3_bucket.jenkins_g_test.id
+  key          = "jenkins_pipeline_newlycreated.png"
+  source       = "${path.module}/jenkins_pipeline_newlycreated.png"
+  etag         = filemd5("${path.module}/jenkins_pipeline_newlycreated.png")
+  content_type = "image/png"
+}
