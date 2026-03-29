@@ -1,7 +1,7 @@
 
 # Jenkins S3 Test
 
-Repository: https://github.com/kevintestqa/jenkinsgtest.git
+Repository: https://github.com/kevintestqa/armageddon
 
 ## Screenshots
 
