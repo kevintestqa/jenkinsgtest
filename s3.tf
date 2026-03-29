@@ -73,3 +73,11 @@ resource "aws_s3_object" "pipeline_trigger_status_upload" {
   etag         = filemd5("${path.module}/jenkins_pipeline_status.png")
   content_type = "image/png"
 }
+
+resource "aws_s3_object" "placeholder_upload" {
+  bucket       = aws_s3_bucket.jenkins_g_test.id
+  key          = "Kiyomizu_min_.jpg"
+  source       = "${path.module}/Kiyomizu_min_.jpg"
+  etag         = filemd5("${path.module}/Kiyomizu_min_.jpg")
+  content_type = "image/png"
+}

@@ -26,3 +26,4 @@ https://jenkinstestwillocks.s3.us-east-1.amazonaws.com/jenkins_pipeline_status.p
 
 ### Armageddon Place holder
 ![Armageddon place holder](./Kiyomizu_min_.jpg)
+https://jenkinstestwillocks.s3.us-east-1.amazonaws.com/Kiyomizu_min_.jpg
