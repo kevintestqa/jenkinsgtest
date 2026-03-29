@@ -20,3 +20,9 @@ https://jenkinstestwillocks.s3.us-east-1.amazonaws.com/jenkins_pipeline_trigger_
 ### Pipeline status
 ![Pipeline status](./jenkins_pipeline_status.png)
 https://jenkinstestwillocks.s3.us-east-1.amazonaws.com/jenkins_pipeline_status.png
+
+### S3 Bucket Contents
+![S3 Contents](./s3_objects_bucket.png)
+
+### Armageddon Place holder
+![Armageddon place holder](./Kiyomizu_min_.jpg)
